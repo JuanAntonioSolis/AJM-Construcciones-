@@ -456,6 +456,105 @@ form button:hover{
     font-weight: bold;
 }
 
+/*Estilo responsive movil*/
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+    header img {
+        width: 180px;
+    }
+
+    header nav{
+        width: 100%; 
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul li {
+        left: 0%;
+        width: 80%;
+        margin-top: 10px;
+        background-color: grey;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    nav ul li:hover{
+        background-color: rgb(70, 70, 70);
+    }
+
+    #textFoto{
+        font-size: 10px;
+        left: 12%;
+        top: 0%;
+    }
+
+    #conv{
+        justify-content: space-around;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+
+    #conv img{
+        width: 20px;
+    }
+    
+
+    #convince h2{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+    #butt{
+        padding-top: 10px;
+    }
+
+    #fotos{
+        grid-template-areas: "escAn"
+                             "escDes"
+                             "facAn"
+                             "facDes"
+                             "terAn"
+                             "terDes";
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #fotoFooter img{
+        width: 175px;
+    }
+
+}
+
 
 
 
