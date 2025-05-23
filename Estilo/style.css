@@ -631,6 +631,66 @@ form button:hover{
 
 }
 
+/*Estilo responsive tablet*/
+@media (max-width: 821px) {
+
+    #textFoto {
+        top: 10%;
+        left: 25%;
+        font-size: 14px;
+    }
+
+    #fotos {
+        grid-template-areas: "escAn escDes"
+            "facAn facDes"
+            "terAn terDes";
+    }
+
+    #servicios {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+
+    #both {
+        gap: 50px;
+    }
+
+    #fotiText img {
+        display: none;
+    }
+
+    #fotiText {
+        top: 40%;
+        left: 43%;
+    }
+
+    #trayect {
+        padding: 50px 40px 50px 40px;
+    }
+
+    #comenzamos{
+        padding: 50px 40px 50px 40px;
+    }
+
+    #comenzamos div{
+        gap: 50px;
+    }
+
+    iframe{
+        width: 250px;
+        height: 175px;
+    }
+
+    #formulario{
+        width: 400px;
+    }
+
+
+
+}
+
 
 
 
