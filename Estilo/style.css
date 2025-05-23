@@ -565,13 +565,55 @@ form button:hover{
         padding-bottom: 10px;
     }
 
-    #fotiText img{
-        display:  none;
+    #fotiText img {
+        display: none;
     }
 
-    #fotiText{
+    #fotiText {
         top: 40%;
     }
+
+    #trayect {
+        padding: 50px 40px 50px 40px;
+        
+    }
+
+    #quienes article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #origin .bonito {
+        order: 2;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    form{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    #comenzamos {
+        padding: 50px 30px 50px 30px;
+    }
+
+    #comenzamos h2{
+        font-size: small;
+    }
+
+    #comenzamos div {
+        grid-template-areas: "map"
+            "formulario";
+        font-size: 13px;
+        gap: 50px;
+    }
+
+
 
     footer {
         display: flex;
