@@ -476,8 +476,8 @@ form button:hover{
         width: 180px;
     }
 
-    header nav{
-        width: 100%; 
+    header nav {
+        width: 100%;
     }
 
     nav ul {
@@ -498,48 +498,82 @@ form button:hover{
         font-size: 11px;
     }
 
-    nav ul li:hover{
+    nav ul li:hover {
         background-color: rgb(70, 70, 70);
     }
 
-    #textFoto{
+    #textFoto {
         font-size: 10px;
         left: 12%;
         top: 0%;
     }
 
-    #conv{
+    #conv {
         justify-content: space-around;
         padding-top: 20px;
         font-size: 13px;
     }
 
-    #conv img{
+    #conv img {
         width: 20px;
     }
-    
 
-    #convince h2{
+
+    #convince h2 {
         text-align: center;
         padding-left: 15px;
         padding-right: 15px;
-        
+
     }
 
-    #butt{
+    #butt {
         padding-top: 10px;
     }
 
-    #fotos{
+    #fotos {
         grid-template-areas: "escAn"
-                             "escDes"
-                             "facAn"
-                             "facDes"
-                             "terAn"
-                             "terDes";
+            "escDes"
+            "facAn"
+            "facDes"
+            "terAn"
+            "terDes";
     }
 
-    footer{
+    #both {
+        grid-template-areas: "priori"
+            "fots";
+    }
+
+    #priori {
+        font-size: 12px;
+    }
+
+    #fots {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+
+    #fots img {
+        width: 35px;
+    }
+
+    #servicios {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    #fotiText img{
+        display:  none;
+    }
+
+    #fotiText{
+        top: 40%;
+    }
+
+    footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -549,7 +583,7 @@ form button:hover{
         padding-bottom: 30px;
     }
 
-    #fotoFooter img{
+    #fotoFooter img {
         width: 175px;
     }
 
